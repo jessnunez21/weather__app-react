@@ -1,0 +1,15 @@
+.app__error{
+    width: 100%;
+    
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+
+}
+.img__error{
+    max-width: 350px;
+}
+.app__error h2{
+    font-size: 2rem;
+}

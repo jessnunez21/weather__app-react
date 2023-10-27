@@ -1,0 +1,209 @@
+
+
+/*.........................................................................btn*/
+.bn32 {
+    border-color: #ffffff;
+    padding: 0.6em 2.3em;
+    cursor: pointer;
+    border-radius: 1em;
+    font-size: 1em;
+    color: #120202;
+    background-image: linear-gradient(45deg, transparent 50%, #161847 50%);
+    background-position: 25%;
+    background-size: 400%;
+    -webkit-transition: background 500ms ease-in-out, color 500ms ease-in-out;
+    transition: background 500ms ease-in-out, color 500ms ease-in-out;
+  }
+  
+  .bn32:hover {
+    color: #ffffff;
+   
+    background-position: 100%;
+  }
+  /*........................................................................cart__app*/
+  .app{
+    width: 100vw;
+    height: 100vh;
+
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+   
+  }
+  .cart__app{
+    max-width: 450px;
+    max-height: 600px;
+   margin: 0 1rem;
+     padding: 1em;
+    border-radius: 1em;
+    
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='450' height='600' preserveAspectRatio='none' viewBox='0 0 450 600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1308%26quot%3b)' fill='none'%3e%3crect width='450' height='600' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1309%26quot%3b)'%3e%3c/rect%3e%3cpath d='M36 600L636 0L957 0L357 600z' fill='url(%26quot%3b%23SvgjsLinearGradient1310%26quot%3b)'%3e%3c/path%3e%3cpath d='M414 600L-186 0L-585 0L15 600z' fill='url(%26quot%3b%23SvgjsLinearGradient1311%26quot%3b)'%3e%3c/path%3e%3cpath d='M12.270340562748629 600L450 162.27034056274863L450 600z' fill='url(%26quot%3b%23SvgjsLinearGradient1310%26quot%3b)'%3e%3c/path%3e%3cpath d='M0 600L437.72965943725137 600L 0 162.27034056274863z' fill='url(%26quot%3b%23SvgjsLinearGradient1311%26quot%3b)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1308'%3e%3crect width='450' height='600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='100%25' x2='50%25' y2='0%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1309'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0.32'%3e%3c/stop%3e%3cstop stop-color='rgba(176%2c 172%2c 153%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1310'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1311'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  
+    
+  }
+
+  .section__app{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+   
+  }
+  .header__app{
+    position: absolute;
+  }
+  .subtitle__header{
+    text-align: center;
+    position: relative;
+    top: -1em;
+
+  }
+  .section__description{
+    text-transform: capitalize;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: end;
+    
+  }
+  .list_description{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: whitesmoke;
+  }
+  .li{
+    display: flex;
+    
+  }
+  .li:nth-child(1){
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .li .items_list:nth-child(1){
+   width: 100%;
+   font-size: 1rem;
+  }
+  .li span:nth-child(2){
+    font-weight: 600;
+    width: 100%;
+    text-align: end;
+    color: red;
+  }
+  .bx-wind{
+    color: blue;
+    
+  }
+  .bxs-cloud{
+    color: rgb(242, 167, 70);
+  }
+  .bxs-timer{
+    color: rgb(240, 86, 86);
+  }
+  .aside{
+    color: whitesmoke;
+    text-align: center;
+    
+  }
+  .aside__content{
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    padding-bottom: 1em;
+  }
+  .bxs-thermometer{
+    font-size: 2rem;
+    color: whitesmoke;
+  }
+ 
+  .formulario{
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .field{
+    position: relative;
+    height: 52px;
+    width: 100%;
+    max-width: 300px;
+    
+    color: white;
+    overflow: hidden;
+  }
+
+  .input__form{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    line-height: 52px;
+    outline: none;
+    background-color: inherit;
+    padding-top: 25px;
+    border: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+  }
+
+  .field .label-wrapper{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    border-color: inherit;
+    
+    pointer-events: none;
+    border-bottom: 1px solid white;
+  }
+
+  .field .label-wrapper::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+    left: 0;
+    bottom: -1px;
+    transform: translateX(-100%);
+    transition: transform 0.2s ease;
+  }
+
+  .field .label__text{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    font-size: 18px;
+    transition: transform 0.6s ease;
+
+  }
+
+  .field input:focus + .label-wrapper .label__text,
+  .field input:valid + .label-wrapper.label__text{
+    font-size: 18px;
+    transform: translateY(-100%);
+   
+    
+  }
+
+  .field input:focus + .label-wrapper::after,
+  .field input:valid + .label-wrapper::after{
+    
+    transform: translateX(0%);
+  }
+  .country__error{
+    text-align: center;
+    height: 1.5rem;
+   color: #120202;
+    
+   }
+   .country__error p span{
+    color: red;
+    font-weight: bold;
+    text-transform: capitalize;
+   }
+   
